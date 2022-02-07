@@ -1,0 +1,279 @@
+/*
+ Theme Name:   Norris Child Theme
+ Theme URI:    http://barahealth.com
+ Description:  Withemes Norris Child Theme
+ Author:       Birkir Brynjarsson
+ Author URI:   http://birkir.is
+ Template:     norris
+ Version:      1.0.0
+ Text Domain:  bara-norris-child
+*/
+
+@import url("../norris/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Header Logo */
+
+div#wi-top-area>div.overlay {opacity: 0;}
+
+a#header-logo {
+	display: block;
+	width: 180px;
+	height: 100px;
+	margin: 90px auto 6px;
+	background: url('images/bara-header-logo.png') top center no-repeat;
+	text-indent: -9999px;
+}
+
+/* a#header-logo {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: 0px auto 30px;
+	background: url('images/bara-logo.png') top center no-repeat;
+	text-indent: -9999px;
+} */
+
+span.toparea-medium {
+	font-family: 'Oswald', sans-serif;
+	font-size: 160%;
+	font-weight: lighter;
+	color: #414141;
+	text-align: center;
+	letter-spacing: 1.5px;
+	position: relative;
+	padding: 5px 40px;
+	border-top: 1px solid #414141;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+	box-shadow: 0px -1px 0 #FFF, 0px -2px 0 #FFF;
+}
+
+/* Utilities */
+
+span.bara-color {
+	color: #b8dd3b;
+}
+
+span.intro-text {
+	display: block;
+	width: 75%;
+	margin: 0px auto;
+	font-size: 15px;
+	text-align: center;
+}
+
+span.bara-slogan {
+	font-family: Oswald, sans-serif;
+	font-size: 30px;
+	color: #414141;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1.5px;
+	position: relative;
+	left: 5px;	
+}
+
+span.subtitle1 {
+	font-size: 12px;
+	font-style: italic;
+	color: #666;
+	text-align: center;
+}
+
+
+
+/* Toggle Hover */
+div.toggle-title:hover {
+	background-color: #f1f1f1;
+	color: #000 !important;
+}
+
+
+/* OnePage Header */
+
+div#wi-top-area h1.heading-text, div#wi-top-area h3.small-text {
+	text-shadow: 1px 1px 4px black;
+}
+
+div.top-content>.wi-button>a.btn {
+	background-color: #414141;
+}
+
+div.top-content>a.lang-btn {margin-top: 40px;}
+
+a.uk-btn {
+	background-image: url('images/uk-flag.png');
+	
+}
+
+a.is-btn {
+	background-image: url('images/is-flag.png');
+}
+
+a.lang-btn {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 8px 18px 8px 50px;
+	color: #414141;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	background-position: 9px 3px;
+	background-repeat: no-repeat;
+}
+a.lang-btn:hover {
+	background-color: #DDD;
+	text-decoration: none;
+}
+
+/* Divider 1 (About Bara) */
+
+span.divider1 {
+	font-family: 'Lora', serif;
+	font-size: 14pt;
+}
+
+/* Testimonial Slider */
+
+.testimonial-slider .flexslider {
+	padding: 0px 40px 40px;
+	border: none;
+	background: none;
+}
+	.flexslider .author {
+		color: #666;
+	}
+
+.flex-direction-nav a {
+	text-indent: 0px !important;
+	font-size: 28px;
+}
+.flex-direction-nav a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Gallery columns */
+
+div#gallery-1>.gallery-item, div#gallery-2>.gallery-item, div#gallery-3>.gallery-item {
+	width: 16.4%;
+	margin-bottom: 10px;
+}
+div#apple-color-sample-gallery>.gallery-item {
+	width: 20%;
+	margin-bottom: 0px;
+}
+div#pear-color-sample-gallery>.gallery-item {
+	width: 20%;
+	margin-bottom: 0px;
+}
+div#sn-color-sample-gallery>.gallery-item {
+	width: 25%;
+	margin-bottom: 0px;
+}
+
+/*HANDPAD*/
+article.post-1844 div#gallery-1 dl:nth-child(1) {margin-left: 17%;}
+/*BACKUP*/
+article.post-1981 div#gallery-1 dl:nth-child(1) {margin-left: 25%;}
+
+/* Headings */
+div.wi-heading, div.wi-heading>h4.h {
+	margin-bottom: 10px;
+}
+div.wi-fullwidth-content {
+	color: #FFF;
+	text-shadow: 1px 1px 4px black;
+}
+
+.wi-center-heading .h { margin-bottom: 10px; }
+
+/* Fullwidth Seperators */
+
+.page-separator {
+	text-shadow: 1px 1px 4px black;
+}
+
+/* About page */
+
+div.headline {
+	margin-bottom: 20px;
+}
+
+div#about.post-1489 {
+	padding: 0px;
+}
+
+/* Top Site All Products Roll-Over */
+
+.link-barasnake, .link-barasnake span {background: url('images/barasnake.jpg') no-repeat;}
+.link-baraapple, .link-baraapple span {background: url('images/baraapple.jpg') no-repeat;}
+.link-barapear, .link-barapear span {background: url('images/barapear.jpg') no-repeat;}
+.link-product {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 288px;
+	height: 400px;
+	background-position: -20px -400px;
+	margin: 0px auto;
+}
+.link-barasnake { background-position: -25px -400px; }
+
+.link-product span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background-position: -19px 0px;
+}
+.link-barasnake span { background-position: -24px 0px; }
+
+
+.link-barahandpad, .link-barahandpad span {background: url('images/barahandpad.jpg') no-repeat;}
+.link-barabackup, .link-barabackup span {background: url('images/barabackup.jpg') no-repeat;}
+.small-link-product {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 190px;
+	height: 127px;
+	background-position: 0px -127px;
+	margin: 0px auto;
+	float:left;
+	margin-right: 10px;
+}
+.small-link-product span {
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background-position: 0px 0px;
+}
+
+
+/* Snake description images */
+
+div.post-1170 div.image {
+	border: none;
+	padding: 0px;
+	background: none;
+	background-size: 0px;
+	margin-top: 10px;
+}
+
+/* Products Info Header */
+
+span.product-info-h3 {
+	display: block;
+	text-indent: -9999px;
+	width: 140px;
+	height: 140px;
+	background-repeat: none;
+	background-position: top center;
+	position: relative;
+}
+span.apple-info-h3 { background: url('images/bara-apple-logo.png'); }
+span.pear-info-h3 { background: url('images/bara-pear-logo.png'); }
+span.snake-info-h3 { background: url('images/bara-snake-logo.png'); }
+span.handpad-info-h3 { background: url('images/bara-handpad-logo.png'); }
+span.backup-info-h3 { background: url('images/bara-backup-logo.png'); }
