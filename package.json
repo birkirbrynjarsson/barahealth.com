@@ -1,0 +1,23 @@
+{
+  "name": "barahealth.com",
+  "version": "1.0.0",
+  "description": "The baraHealth website, converted from wordpress to a static site",
+  "main": "www/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birkirbrynjarsson/barahealth.com.git"
+  },
+  "author": "Birkir Brynjarsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birkirbrynjarsson/barahealth.com/issues"
+  },
+  "homepage": "https://barahealth.com/",
+  "scripts": {
+    "start": "./node_modules/proxrox/bin/proxrox.js start -- .proxrox.yaml",
+    "stop": "./node_modules/proxrox/bin/proxrox.js stop"
+  },
+  "devDependencies": {
+    "proxrox": "^1.18.0"
+  }
+}
