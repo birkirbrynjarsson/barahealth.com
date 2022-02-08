@@ -217,6 +217,7 @@ WITHEMES.scrollto = function(){
 				var adminbar_h = $('#wpadminbar').outerHeight();
 				if ( $('body').hasClass('admin-bar') ) offset_top = offset_top - adminbar_h;
 				$('html,body').animate({ scrollTop: offset_top}, 1000, 'easeInOutExpo');
+				location.href = href;
 			}
 		} // if hash
 	});	// onepage menu li a click
