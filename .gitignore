@@ -1,2 +1,39 @@
-node_modules
-backup
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if any tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Deployment / build artifacts
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
