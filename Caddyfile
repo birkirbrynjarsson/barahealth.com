@@ -1,0 +1,12 @@
+localhost:3000 {
+	# Enable templates middleware to process .html files as Go templates
+	templates
+
+	# Root directory
+	root /Users/birkir/Gitbox/birkirbrynjarsson/barahealth.com
+
+	# Serve files
+	file_server
+
+	encode gzip
+}
