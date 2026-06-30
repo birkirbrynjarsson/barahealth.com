@@ -22,6 +22,21 @@
     <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/backup.html" />
   </url>
   <url>
+    <loc>https://barahealth.com/apple.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/apple.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/apple.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/pear.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/pear.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/pear.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/snake.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/snake.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/snake.html" />
+  </url>
+  <url>
     <loc>https://barahealth.com/is/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/" />
     <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/" />
@@ -40,5 +55,20 @@
     <loc>https://barahealth.com/is/backup.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/backup.html" />
     <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/backup.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/apple.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/apple.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/apple.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/pear.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/pear.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/pear.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/snake.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/snake.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/snake.html" />
   </url>
 </urlset>
