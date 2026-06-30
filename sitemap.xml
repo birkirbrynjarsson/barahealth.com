@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://barahealth.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/about.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/handpad.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/handpad.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/handpad.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/backup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/backup.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/backup.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/about.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/handpad.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/handpad.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/handpad.html" />
+  </url>
+  <url>
+    <loc>https://barahealth.com/is/backup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barahealth.com/backup.html" />
+    <xhtml:link rel="alternate" hreflang="is" href="https://barahealth.com/is/backup.html" />
+  </url>
+</urlset>

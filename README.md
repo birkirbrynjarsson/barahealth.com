@@ -2,6 +2,10 @@
 
 Static website for [barahealth.com](https://barahealth.com), serving both an English (`/`) and Icelandic (`/is/`) version of the site.
 
+## About Bara
+
+Bara designs and produces support cushions and other health and lifestyle products, including the Apple, Pear, and Snake cushions and the Handpad. The first cushion was created in 2002 as custom-built arm support for a wheelchair user with ALS, and was later refined with users and health-care professionals into the current product line. Bara's products are distributed in Iceland through the Assistive-device division of the Icelandic Health Insurance and are sold to a growing base of users abroad.
+
 ## Structure
 
 ```
@@ -37,7 +41,7 @@ Requires [Caddy](https://caddyserver.com/docs/install).
 caddy run
 ```
 
-The site will be available at <http://localhost:8080>.
+The site will be available at <http://localhost:3000>.
 
 To live-reload on file changes:
 

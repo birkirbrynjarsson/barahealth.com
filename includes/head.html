@@ -1,12 +1,4 @@
-<!--[if IE 7]>
-<html class="ie ie7 no-js" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8 no-js" lang="en-US">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)]><!-->
 <html class="no-js" lang="en-US">
-  <!--<![endif]-->
 
   <head>
     <meta charset="UTF-8" />
@@ -14,8 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <title>Bara - Support Cushions &amp; Health Products</title>
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <title>{{index .Args 0}}</title>
 
     <link rel="shortcut icon" href="content/bara-favicon.png" />
     <link rel="apple-touch-icon" href="content/bara-57px.png" />
@@ -36,13 +27,21 @@
 
     <meta name="robots" content="max-image-preview:large" />
 
-    <!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+    <meta name="description" content="{{index .Args 1}}" />
+    <link rel="canonical" href="https://barahealth.com{{index .Args 2}}" />
+    <link rel="alternate" hreflang="en" href="https://barahealth.com{{index .Args 2}}" />
+    <link rel="alternate" hreflang="is" href="https://barahealth.com{{index .Args 3}}" />
+    <link rel="alternate" hreflang="x-default" href="https://barahealth.com{{index .Args 2}}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{index .Args 0}}" />
+    <meta property="og:description" content="{{index .Args 1}}" />
+    <meta property="og:site_name" content="Bara" />
     <meta
-      name="description"
-      content="The Apple, Pear and Snake from Bara. - Elegant and innovative support cushions that improve people&#039;s health and participation in daily activities."
+      property="og:image"
+      content="https://barahealth.com/content/bara-tree-header1.jpg"
     />
-    <link rel="canonical" href="/" />
-    <!-- / Yoast SEO plugin. -->
+    <meta property="og:url" content="https://barahealth.com{{index .Args 2}}" />
 
     <!-- <link rel='dns-prefetch' href='https://fonts.googleapis.com/' /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -134,26 +133,6 @@
       type="text/css"
       media="all"
     />
-    <!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-56766049-2"]);
-      _gaq.push(["_gat._forceSSL"]);
-      _gaq.push(["_trackPageview"]);
-
-      (function () {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <!-- / Google Analytics by Yoast -->
     <script
       type="text/javascript"
       src="js/jquery/jquery.min.js"
@@ -375,10 +354,10 @@
         }
       }
 
-      @media (max-width: 768px) {
+      /* @media (max-width: 768px) {
         .article .title {
         }
-      }
+      } */
 
       @media (max-width: 480px) {
         .article .title {
@@ -701,4 +680,3 @@
       }); // jQuery
     </script>
   </head>
-</html>
